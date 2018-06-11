@@ -1,0 +1,16 @@
+  500* ls
+  501* mv readme.md git-practice-2/readme.md
+  502* ls
+  503* cd git-practice-2
+  504* ls
+  505  git add index.html readme.md
+  506  git status
+  507  git commit -m "git-drill commit index/readme"
+  508  git remote add origin https://github.com/Cradical/git-drill-2.git
+  509  git push
+  510  git push -u origin master
+  511  git add .
+  512  git commit -m "adding all files"
+  513  git push
+  514  git pull
+  515  history -n 15 > my-commands
